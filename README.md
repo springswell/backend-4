@@ -173,3 +173,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security reports go through
 ## License
 
 [MIT](LICENSE)
+
+## Mock Stellar Horizon in Tests\n\nIntegration tests must use a mock Stellar Horizon server to avoid rate limits, network flakiness, and test pollution from real testnet state. Use stellar/js-stellar-sdk test helpers or a custom nock interceptor.
